@@ -1,6 +1,4 @@
 /*global $, window, document, setTimeout, WOW, jQuery*/
-
-
 $(document).ready(function () {
 
     'use strict';
