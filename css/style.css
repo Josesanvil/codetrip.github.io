@@ -1033,6 +1033,7 @@ nav.main-navigation .navbar-nav .btn:hover{
 ====================================================================
 
  ***/
+/***
 .about-us{
     background: url('../images/bg-images/about-bg-img.png') center no-repeat;
     background-size: cover
@@ -1099,7 +1100,7 @@ nav.main-navigation .navbar-nav .btn:hover{
     font-size: 16px
 }
 
-
+***/
 /*** 
 
 ====================================================================
@@ -1107,6 +1108,7 @@ nav.main-navigation .navbar-nav .btn:hover{
 ====================================================================
 
  ***/
+/***
 .services{
 	background: url('../images/elements/city.png') bottom center no-repeat;
 	background-size: 100%;
@@ -1193,7 +1195,7 @@ nav.main-navigation .navbar-nav .btn:hover{
     -ms-transition: all 300ms ease;
     -o-transition: all 300ms ease;
 }
-
+***/
 /*** 
 
 ====================================================================
@@ -1327,7 +1329,7 @@ nav.main-navigation .navbar-nav .btn:hover{
 ====================================================================
 
 ***/
-
+/***
 .flat-news-s2 {
     padding: 45px 0 113px;
 }
@@ -1483,7 +1485,7 @@ article.post .content-post:after {
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
-
+***/
 /*** 
 
 ====================================================================
@@ -1555,6 +1557,7 @@ article.post .content-post:after {
 ====================================================================
 
  ***/
+/***
 .s-list li {
     margin-bottom: 10px;
     color: #777
@@ -1570,7 +1573,7 @@ article.post .content-post:after {
 .about .download-btn:hover{
     background: #fff!important
 }
-
+***/
 
 
 /*** 
@@ -2758,6 +2761,7 @@ article.post .content-post:after {
 ====================================================================
 
  ***/
+/***
 .subscribe-newsletter {
     background-color: #f5f5f5;
     text-align: center;
@@ -2861,7 +2865,7 @@ article.post .content-post:after {
 }
 
 
-
+***/
 /*** 
 
 ====================================================================
