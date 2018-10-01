@@ -152,9 +152,14 @@
 		figure out the best way to reduce production and maintenance costs.</p>
 		<p class="lead text-white"> First steps are always hard, why don't you let us take care of that?</p>
               </p>
-                <div class="theme-btn">
+                <div class="theme-btn" id="HireUs">
                   <a href="https://calendly.com/codetrip/free-consulting" class="more-btn" rel="noopener noreferrer" target="_blank">Hire our consultants!</i></a>
                 </div>
+                <script type="text/javascript">
+                    mixpanel.track_links("#HireUs a", "clicked 'Hire our consultants!' button", {
+                        "referrer": document.referrer
+                    });
+                </script>
               </div>
             </div>
           </div>
