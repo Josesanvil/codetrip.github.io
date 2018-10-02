@@ -2,14 +2,44 @@
 <html lang="zxx">
    <head>
 	   <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126688157-1"></script>
+<!--     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126688157-1"></script>
     <script>
 	  window.dataLayer = window.dataLayer || [];
 	  function gtag(){dataLayer.push(arguments);}
 	  gtag('js', new Date());
 
 	  gtag('config', 'UA-126688157-1');
+     </script> -->
+
+
+
+     <!-- Global site tag (gtag.js) - Google Ads: 785825646 -->
+     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-785825646"></script>
+     <script>
+       window.dataLayer = window.dataLayer || [];
+       function gtag(){dataLayer.push(arguments);}
+       gtag('js', new Date());
+
+       gtag('config', 'AW-785825646');
      </script>
+
+     <!-- Event snippet for Clicked Hire us conversion page
+     In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+     <script>
+     function gtag_report_conversion(url) {
+       var callback = function () {
+         if (typeof(url) != 'undefined') {
+           window.location = url;
+         }
+       };
+       gtag('event', 'conversion', {
+           'send_to': 'AW-785825646/4wTYCOXzsIoBEO7-2vYC',
+           'event_callback': callback
+       });
+       return false;
+     }
+     </script>
+
 
 	   <!-- start Mixpanel -->
 		<script type="text/javascript">(function(e,a){if(!a.__SV){var b=window;try{var c,l,i,j=b.location,g=j.hash;c=function(a,b){return(l=a.match(RegExp(b+"=([^&]*)")))?l[1]:null};g&&c(g,"state")&&(i=JSON.parse(decodeURIComponent(c(g,"state"))),"mpeditor"===i.action&&(b.sessionStorage.setItem("_mpcehash",g),history.replaceState(i.desiredHash||"",e.title,j.pathname+j.search)))}catch(m){}var k,h;window.mixpanel=a;a._i=[];a.init=function(b,c,f){function e(b,a){var c=a.split(".");2==c.length&&(b=b[c[0]],a=c[1]);b[a]=function(){b.push([a].concat(Array.prototype.slice.call(arguments,
@@ -153,7 +183,7 @@
 		<p class="lead text-white"> First steps are always hard, why don't you let us take care of that?</p>
               </p>
                 <div class="theme-btn" id="HireUs">
-                  <a href="https://calendly.com/codetrip/free-consulting" class="more-btn" rel="noopener noreferrer" target="_blank">Hire our consultants!</i></a>
+                  <a onclick="return gtag_report_conversion('https://calendly.com/codetrip/free-consulting');" href="https://calendly.com/codetrip/free-consulting" class="more-btn" rel="noopener noreferrer" target="_blank">Hire our consultants!</i></a>
                 </div>
                 <script type="text/javascript">
                     mixpanel.track_links("#HireUs a", "clicked 'Hire our consultants!' button", {
