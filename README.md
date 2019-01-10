@@ -1,1 +1,3 @@
-# codetrip.es
+# codetrip.ai
+
+Artificial Intelligence for your business!
